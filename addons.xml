@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addons>
-</addons>
+<addon id="repository.damagicshow"
+       name="Da Magic Show Repository"
+       version="1.0.0"
+       provider-name="Magic Mike">
+    <extension point="xbmc.addon.repository">
+        <info compressed="false">https://your-site.com/addons.xml</info>
+        <checksum>https://your-site.com/addons.xml.md5</checksum>
+        <datadir zip="true">https://your-site.com/zips/</datadir>
+    </extension>
+</addon>
