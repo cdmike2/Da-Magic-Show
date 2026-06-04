@@ -4,8 +4,8 @@
        version="1.0.0"
        provider-name="Magic Mike">
     <extension point="xbmc.addon.repository">
-        <info compressed="false">https://your-site.com/addons.xml</info>
-        <checksum>https://your-site.com/addons.xml.md5</checksum>
-        <datadir zip="true">https://your-site.com/zips/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/cdmike2/Da-Magic-Show/main/addons.xml</info>
+        <checksum></checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/cdmike2/Da-Magic-Show/main/zips/</datadir>
     </extension>
 </addon>
