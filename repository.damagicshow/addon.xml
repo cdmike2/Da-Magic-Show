@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.damagicshow"
+       name="Da Magic Show Repository"
+       version="1.0.0"
+       provider-name="Magic Mike">
+    <extension point="xbmc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/cdmike2/Da-Magic-Show/main/addons.xml</info>
+        <checksum></checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/cdmike2/Da-Magic-Show/main/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Da Magic Show Repository</summary>
+        <description>Official Da Magic Show Kodi Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
